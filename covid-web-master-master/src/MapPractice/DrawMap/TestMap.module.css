@@ -1,0 +1,146 @@
+.Detail{
+    color: white;
+}
+
+.Map_data_state{
+    color: white;
+}
+
+.Map_Data_Confirm{
+    height: 70px;
+    width: 110px;
+    background-image:linear-gradient(to right, rgb(235, 100, 100),rgb(235, 100, 130));
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8%;
+    color: white;
+    opacity: .7;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 24px 25px rgb(0,0,0,.5);
+    float: inline-start;
+    
+}
+.Map_Data_Confirm_focus{
+    width: 100%;
+    height: 40%;
+    margin-top: 0px;
+    
+}
+.Map_Data_Confirm_Number{
+    width: 100%;
+    height: 60%;
+    
+}
+.Map_Data_Active{
+    height: 70px;
+    width: 110px;
+    background-image:linear-gradient(to right, rgb(109, 109, 235),rgb(235, 100, 130));
+    opacity: .7;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 24px 25px rgb(0,0,0,.5);
+    float: inline-start;
+}
+
+.Map_Data_Recover{
+    height: 70px;
+    width: 110px;
+    background-image:linear-gradient(to right,rgb(139, 235, 159), rgb(71, 156, 139));
+    margin-top: 10px;
+    opacity: .7;
+    margin-left: 10px;
+    border-radius: 8%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 24px 25px rgb(0,0,0,.5);
+    float: inline-start;
+}
+.Map_Data_Death{
+    height: 70px;
+    width: 110px;
+    background-image:linear-gradient(to right, rgb(172, 162, 162),rgb(235, 100, 130));
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: .7;
+    border-radius: 8%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 24px 25px rgb(0,0,0,.5);
+    float: inline-start;
+}
+
+.Map_Visual_Data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.State_Map_Visual_Data{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:600px){
+    .Map_Visual_Data{
+        flex-direction: row;
+    }
+}
+.Map_data{
+    display: flex;
+    height: 20%;
+    /* flex-direction: row; 
+    flex-wrap: wrap; */
+}
+
+/* @media (max-width:600px){
+.SVG_FOR_MAP{
+    margin-left: 150px;
+    width: 70%;
+}
+} */
+@media only screen and (max-width:450px){
+    .SVG_FOR_MAP{
+        width: 100%;
+        margin-left: 50px;
+    } 
+}
+@media(max-width:600px){
+    .State_Map_Visual_Data{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:600px)
+{
+    .Map_Data_Recover{
+        width: 24.5%;
+        margin-left: .5%;
+
+    }
+}
+@media(max-width:600px){
+    .Map_Data_Confirm{
+        width: 24.5%;
+        margin-left: .5%;
+
+    }
+}
+@media(max-width:600px){
+    .Map_Data_Active{
+        width: 24.5%;
+        margin-left: .5%;
+    }
+}
+@media(max-width:600px){
+    .Map_Data_Death{
+        width: 24.5%;
+        margin-left: .5%;
+
+    }
+}
